@@ -14,7 +14,8 @@ local games = {
     ["KingLegacy"] = 4520749081,
     ["BloxFruits1stSea"] = 2753915549,
     ["BloxFruits2ndSea"] = 4442272183,
-    ["BloxFruits3rdSea"] = 7449423635
+    ["BloxFruits3rdSea"] = 7449423635,
+    ["DaHoodAppleWare"] = 2788229376
 }
 
 for k,v in next, games do 
