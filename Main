@@ -15,7 +15,12 @@ local games = {
     ["BloxFruits1stSea"] = 2753915549,
     ["BloxFruits2ndSea"] = 4442272183,
     ["BloxFruits3rdSea"] = 7449423635,
-    ["DaHoodAppleWare"] = 2788229376
+    ["DaHoodAppleWare"] = 2788229376,
+    ["uzuhub"] = 8396586868, -- main game
+    ["uzuhub"] = 9264222904, -- raid
+    ["uzuhub"] = 9432106399, -- second sea
+    ["uzuhub"] = 9572329421, -- maze
+    ["uzuhub"] = 9812430518 -- dungeon
 }
 
 for k,v in next, games do 
