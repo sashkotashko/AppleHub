@@ -8,7 +8,7 @@
           | |   | |                                  
           |_|   |_|
 ]]
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ui/main/source"))()
 
 local games = {
     ["KingLegacy"] = 4520749081,
@@ -28,12 +28,7 @@ for k,v in next, games do
     if game.PlaceId == v then
     	print(k)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/sashkotashko/AppleHub/main/" .. k))();
-	OrionLib:MakeNotification({
-	Name = "AppleHub Loaded Successfully.",
-	Content = "AppleHub has loaded successfully!",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-	})
+	ShlexLib:Notify("AppleHub Loaded Successfully.","AppleHub has loaded successfully!",0000)
     end
 end
 
