@@ -16,6 +16,7 @@ local games = {
     ["BloxFruits2ndSea"] = 4442272183,
     ["BloxFruits3rdSea"] = 7449423635,
     ["DaHoodAppleWare"] = 2788229376,
+    ["SteveOnePiece"] = 2116452049,
     ["uzuhub"] = 8396586868, -- main game
     ["uzuhub"] = 9264222904, -- raid
     ["uzuhub"] = 9432106399, -- second sea
