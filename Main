@@ -8,7 +8,7 @@
           | |   | |                                  
           |_|   |_|
 ]]
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local games = {
     ["KingLegacy"] = 4520749081,
@@ -28,7 +28,12 @@ for k,v in next, games do
     if game.PlaceId == v then
     	print(k)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/sashkotashko/AppleHub/main/" .. k))();
-	Notification.new("success", "Success! Loading script, some scripts do not work on mobile", "Apple Ware ONTOP!!")
+	OrionLib:MakeNotification({
+	Name = "AppleHub Loaded Successfully.",
+	Content = "AppleHub has loaded successfully!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+	})
     end
 end
 
