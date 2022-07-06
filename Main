@@ -8,7 +8,7 @@
           | |   | |                                  
           |_|   |_|
 ]]
-local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ui/main/source"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
 
 local games = {
     ["KingLegacy"] = 4520749081,
@@ -28,7 +28,7 @@ for k,v in next, games do
     if game.PlaceId == v then
     	print(k)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/sashkotashko/AppleHub/main/" .. k))();
-	ShlexLib:Notify("AppleHub Loaded Successfully.","AppleHub has loaded successfully!",0000)
+	local notif = Notification.new("success", "AppleHub Loaded.", "AppleHub Has Loaded Successfully.")
     end
 end
 
