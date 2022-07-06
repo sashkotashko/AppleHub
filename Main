@@ -28,7 +28,7 @@ for k,v in next, games do
     if game.PlaceId == v then
     	print(k)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/sashkotashko/AppleHub/main/" .. k))();
-	local notif = Notification.new("success", "AppleHub Has Loaded Successfully.", "Enjoy, "..k)
+	local notif = Notification.new("success", "AppleHub Loaded.", "AppleHub Has Loaded | "..k)
     end
 end
 
